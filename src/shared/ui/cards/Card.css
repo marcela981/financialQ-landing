@@ -1,0 +1,164 @@
+/* ── Base card ── */
+.card {
+  background: var(--ivory-pale);
+  padding: 40px 34px;
+  transition: background .28s;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover { background: var(--white); }
+.card::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background: var(--blue);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .4s cubic-bezier(.22, 1, .36, 1);
+}
+.card:hover::before { transform: scaleX(1); }
+
+/* ── White card ── */
+.card-wht {
+  background: var(--white);
+  padding: 40px 36px;
+  transition: background .28s;
+}
+.card-wht:hover { background: var(--ivory-pale); }
+
+/* ── Dark card ── */
+.card-dk {
+  background: rgba(35, 31, 32, .55);
+  padding: 40px 32px;
+  transition: background .28s;
+  position: relative;
+  overflow: hidden;
+}
+.card-dk:hover { background: rgba(59, 76, 157, .13); }
+.card-dk::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 2px; height: 0;
+  background: var(--blue-light);
+  transition: height .45s cubic-bezier(.22, 1, .36, 1);
+}
+.card-dk:hover::after { height: 100%; }
+
+/* ── Blue card ── */
+.card-bl {
+  background: var(--blue);
+  padding: 44px 40px;
+  transition: background .28s;
+  cursor: pointer;
+}
+.card-bl:hover { background: var(--blue-deep); }
+
+/* ── Team card ── */
+.tc {
+  background: rgba(35, 31, 32, .55);
+  padding: 44px 36px;
+  transition: background .3s;
+  position: relative;
+  overflow: hidden;
+}
+.tc:hover { background: rgba(59, 76, 157, .14); }
+.tc::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 2px; height: 0;
+  background: var(--blue-light);
+  transition: height .45s cubic-bezier(.22, 1, .36, 1);
+}
+.tc:hover::after { height: 100%; }
+.t-mono {
+  width: 62px; height: 62px;
+  border-radius: 50%;
+  background: rgba(59, 76, 157, .18);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif);
+  font-size: 23px; font-weight: 400;
+  color: rgba(230, 223, 197, .7);
+  margin-bottom: 20px;
+  transition: background .3s;
+}
+.tc:hover .t-mono { background: rgba(59, 76, 157, .35); }
+.t-name { font-family: var(--serif); font-size: 22px; font-weight: 400; color: var(--ivory); margin-bottom: 3px; }
+.t-role { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--blue-light); margin-bottom: 6px; }
+.t-certs { font-size: 11px; font-weight: 500; color: rgba(230, 223, 197, .3); margin-bottom: 14px; }
+.t-bio { font-size: 13px; font-weight: 300; color: rgba(255, 255, 255, .33); line-height: 1.75; }
+
+/* ── Client card ── */
+.cc {
+  background: var(--ivory-pale);
+  padding: 48px 40px;
+  position: relative; overflow: hidden;
+  transition: background .3s;
+}
+.cc:hover { background: var(--white); }
+.cc::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background: var(--blue);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .4s cubic-bezier(.22, 1, .36, 1);
+}
+.cc:hover::before { transform: scaleX(1); }
+.cc-icon { width: 40px; height: 40px; color: var(--blue); opacity: .65; margin-bottom: 20px; }
+.cc-title { font-family: var(--serif); font-size: 24px; font-weight: 400; color: var(--black); line-height: 1.2; margin-bottom: 12px; }
+.cc-body { font-size: 13.5px; font-weight: 300; color: var(--muted); line-height: 1.78; margin-bottom: 16px; }
+.cc-list { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+.cc-list li { font-size: 12.5px; font-weight: 400; color: var(--black-soft); padding-left: 16px; position: relative; }
+.cc-list li::before { content: '—'; position: absolute; left: 0; color: var(--blue); font-size: 10px; top: 4px; }
+
+/* ── Insight cards ── */
+.il {
+  background: var(--blue);
+  padding: 50px 44px;
+  display: flex; flex-direction: column; gap: 16px;
+  cursor: pointer;
+  transition: background .3s;
+}
+.il:hover { background: var(--blue-deep); }
+
+.ic {
+  background: var(--white);
+  padding: 38px 34px;
+  display: flex; flex-direction: column; gap: 14px;
+  cursor: pointer;
+  transition: background .3s;
+}
+.ic:hover { background: var(--ivory-pale); }
+
+.i-tag { font-size: 9.5px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }
+.i-tag.bl { color: rgba(230, 223, 197, .55); }
+.i-tag.lgt { color: var(--blue); }
+.i-ttl { font-family: var(--serif); font-weight: 400; line-height: 1.28; }
+.il .i-ttl { font-size: 28px; color: var(--ivory); }
+.ic .i-ttl { font-size: 22px; color: var(--black); }
+.i-body { font-size: 13.5px; font-weight: 300; line-height: 1.75; flex: 1; }
+.il .i-body { color: rgba(230, 223, 197, .52); }
+.ic .i-body { color: var(--muted); }
+.i-meta { font-size: 10px; font-weight: 600; letter-spacing: .08em; }
+.il .i-meta { color: rgba(230, 223, 197, .3); }
+.ic .i-meta { color: var(--muted); }
+.i-arr {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .22s;
+  align-self: flex-start; flex-shrink: 0;
+}
+.il .i-arr { border-color: rgba(230, 223, 197, .2); }
+.il .i-arr svg { stroke: rgba(230, 223, 197, .5); }
+.ic .i-arr { border-color: rgba(59, 76, 157, .2); }
+.ic .i-arr svg { stroke: var(--blue); }
+.ic:hover .i-arr { background: var(--blue); border-color: var(--blue); }
+.ic:hover .i-arr svg { stroke: white; }
+.i-arr svg { width: 11px; height: 11px; fill: none; stroke-width: 1.5; }

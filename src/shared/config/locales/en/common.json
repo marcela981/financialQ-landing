@@ -1,0 +1,704 @@
+{
+  "nav": {
+    "sobre": "About Us",
+    "enfoque": "Our Approach",
+    "clientes": "Clients",
+    "perspectivas": "Perspectives",
+    "cta": "Start a Conversation",
+    "dropdown": {
+      "sobre": [
+        { "title": "The Firm",           "desc": "History, mission and legal structure" },
+        { "title": "The Team",           "desc": "Specialized directors and advisors" },
+        { "title": "Mission and Vision", "desc": "The purpose that guides every decision" },
+        { "title": "Fiduciary Governance", "desc": "SEC Registration · Form ADV" }
+      ],
+      "enfoque": [
+        { "title": "Investment Philosophy",    "desc": "The 5 fundamental convictions" },
+        { "title": "Methodological Framework", "desc": "FinancialQ™ Capital Architecture" },
+        { "title": "Risk Philosophy",          "desc": "Explicit multidimensional budget" },
+        { "title": "Fiduciary Governance",     "desc": "Fee-only · Conflict-free" }
+      ],
+      "clientes": [
+        "High-Income Professionals",
+        "Cross-Border Entrepreneurs",
+        "International Investors",
+        "Founders with Liquidity Event"
+      ]
+    }
+  },
+
+  "hero": {
+    "eyebrow": "U.S. Registered Investment Advisor · Fiduciary Standard",
+    "heading": "Structured",
+    "heading.italic": "Capital",
+    "heading2": "Management.",
+    "subtitle": "Built for Permanence.",
+    "description": "A fiduciary platform for sophisticated investors — design by mandate, explicit risk budgeting and macroeconomic regime-sensitive allocation.",
+    "ctaPrimary": "Schedule Consultation",
+    "ctaSecondary": "Our Approach",
+    "tags": [
+      "Design by Mandate",
+      "Allocation by Regime",
+      "Risk Budget",
+      "Long-Term Capitalization"
+    ],
+    "stats": [
+      { "number": "24",   "sup": "yrs", "label": "Institutional Experience" },
+      { "number": "$2.4", "sup": "B+",  "label": "Assets Under Supervision" },
+      { "number": "100",  "sup": "%",   "label": "Fee-Only Fiduciary" },
+      { "number": "18",   "sup": "+",   "label": "Cross-Border Mandates" }
+    ]
+  },
+
+  "marquee": {
+    "items": [
+      "Fiduciary Supervision",
+      "Design by Mandate",
+      "Allocation by Regime",
+      "Explicit Risk Budget",
+      "Long-Term Capitalization",
+      "SEC Registered Advisor",
+      "Institutional Governance",
+      "Cross-Border Structures"
+    ]
+  },
+
+  "landing": {
+    "clients": {
+      "eyebrow": "Who We Serve",
+      "heading": "Designed for",
+      "heading.italic": "Exceptional",
+      "heading2": "Circumstances.",
+      "btnViewAll": "View all profiles",
+      "body1": "We work with a limited number of clients whose financial complexity demands institutional discipline — not retail solutions. Our commitments are selective by design.",
+      "body2": "Each relationship begins with a thorough mandate assessment before any allocation decisions are made.",
+      "cards": [
+        { "title": "High-Income Professionals",        "body": "Complex compensation, concentrated positions and long-term accumulation." },
+        { "title": "Cross-Border Entrepreneurs",       "body": "Multiple jurisdictions, repatriation and coordination under tax treaties." },
+        { "title": "International Investors",          "body": "U.S. and international capital under a strong fiduciary framework." },
+        { "title": "Founders with Liquidity Event",    "body": "Concentrated wealth converted into durable post-exit capital." }
+      ]
+    },
+    "framework": {
+      "eyebrow": "Exclusive Methodology",
+      "heading": "FinancialQ™ Capital Architecture",
+      "body": "A four-pillar methodology for building, governing and adapting portfolios through market regimes.",
+      "btn": "View Full Framework",
+      "pillars": [
+        { "num": "01", "title": "Mandate Definition",            "body": "Capital purpose, objectives and time horizon." },
+        { "num": "02", "title": "Risk Budget",                   "body": "Budgeted volatility, maximum drawdown and correlation." },
+        { "num": "03", "title": "Regime Allocation",             "body": "Macroeconomic cycles as a permanent structural input." },
+        { "num": "04", "title": "Capitalization Architecture",   "body": "Tax structuring and systematic rebalancing." }
+      ]
+    },
+    "insights": {
+      "eyebrow": "Research and Perspectives",
+      "heading": "Capital Thinking.",
+      "btnAll": "All Perspectives",
+      "featured": {
+        "tag": "Featured Essay",
+        "title": "Regime Identification as Portfolio Input",
+        "body": "Macroeconomic regimes — not calendar periods — govern asset return distributions.",
+        "meta": "Nov 2024 · 14 min"
+      },
+      "card1": {
+        "tag": "Technical Note",
+        "title": "The Arithmetic of Tax Drag on Capitalization",
+        "body": "How pre-tax assumptions systematically overestimate wealth outcomes.",
+        "meta": "Oct 2024 · 9 min"
+      },
+      "card2": {
+        "tag": "Client Letter",
+        "title": "Concentrated Capital: The Cost of Inaction",
+        "body": "The greatest risk for a post-exit founder is rarely market risk.",
+        "meta": "Sep 2024 · 7 min"
+      }
+    },
+    "cta": {
+      "heading": "Ready to begin a",
+      "heading.italic": "meaningful conversation?",
+      "btn": "Schedule a Consultation",
+      "note": "Selective commitments · Min. $2M in assets."
+    }
+  },
+
+  "sobre": {
+    "subnav": {
+      "firma": "The Firm",
+      "equipo": "The Team",
+      "mision": "Mission and Vision"
+    },
+    "firma": {
+      "kicker": "About Us — The Firm",
+      "heading": "A Firm Built for",
+      "heading.italic": "Permanence.",
+      "historyEyebrow": "History and Foundation",
+      "historyHeading": "Two Decades of",
+      "historyHeading.italic": "Institutional Discipline.",
+      "historyBody1": "FinancialQ Group was founded in 2000 on a simple but radical premise: sophisticated private investors deserve the same methodological rigor as large institutional funds — without the conflicts of interest that characterize traditional private banking.",
+      "historyBody2": "For 24 years we have built and overseen mandates for a deliberately small client base. We do not manage assets by scale. We manage commitments by depth.",
+      "legalEyebrow": "Legal and Regulatory Structure",
+      "legalHeading": "Registration and",
+      "legalHeading.italic": "Regulatory Compliance.",
+      "legalBody": "We operate under the most demanding framework available to investment advisors in the United States.",
+      "legalPill": "SEC-Registered · Form ADV Part 2",
+      "items": [
+        {
+          "title": "Registered Investment Advisor",
+          "body": "Regulated by the SEC under the Investment Advisers Act of 1940. Full fiduciary obligation to each client."
+        },
+        {
+          "title": "Fee-Only Model",
+          "body": "No commissions, no product incentives. Only fees agreed directly with the client."
+        },
+        {
+          "title": "Independent Custody",
+          "body": "Client assets are held at independent custodians completely separate from the firm's operations."
+        },
+        {
+          "title": "Professional Memberships",
+          "body": "CFA Institute · CFP Board · NAPFA (National Association of Personal Financial Advisors)"
+        }
+      ]
+    },
+    "equipo": {
+      "kicker": "About Us — The Team",
+      "heading": "Institutional Depth.",
+      "heading.italic": "Personal Accountability.",
+      "intro": "Our principals bring decades of institutional investment, tax and wealth planning experience to a deliberately small, focused and conflict-free firm.",
+      "members": [
+        {
+          "initials": "MQ",
+          "name": "Marcus Quinlan",
+          "role": "Founding Director and CIO",
+          "certs": "CFA · MBA Wharton",
+          "bio": "Former institutional portfolio manager with experience at a major university endowment fund. 24 years in highly complex wealth management. Specialist in regime-sensitive allocation and mandate architecture."
+        },
+        {
+          "initials": "EL",
+          "name": "Elena Laurente",
+          "role": "Director, Wealth Strategy",
+          "certs": "CFP® · LLM International Tax",
+          "bio": "Over 20 years advising UHNW families on cross-border planning, concentrated capital disposition and multigenerational governance frameworks. Fluent in Spanish, English and Portuguese."
+        },
+        {
+          "initials": "DK",
+          "name": "Daniel Krebs",
+          "role": "Director of Risk Architecture",
+          "certs": "CFA · MSc Financial Mathematics",
+          "bio": "Quantitative risk specialist with training in institutional factor modeling. Responsible for explicit risk budgeting and continuous monitoring of mandate compliance for each client."
+        },
+        {
+          "initials": "SA",
+          "name": "Sophia Andros",
+          "role": "International Wealth Advisor",
+          "certs": "CFP® · Comparative Law",
+          "bio": "Fluent in four languages. Advises cross-border entrepreneurs and mobile families on legal structure, tax compliance and capital coordination across multiple jurisdictions."
+        }
+      ]
+    },
+    "mision": {
+      "kicker": "About Us — Mission and Vision",
+      "heading": "The Purpose Guiding",
+      "heading.italic": "Every Decision.",
+      "missionEyebrow": "Mission",
+      "missionText": "To preserve and grow our clients' capital through structured investment discipline, without compromise on the fiduciary standard.",
+      "visionEyebrow": "Vision",
+      "visionText": "To be the reference standard for institutional wealth management applied to individual mandates of exceptional complexity.",
+      "valuesLabel": "Institutional Values",
+      "values": [
+        {
+          "num": "I",
+          "title": "Structural Integrity",
+          "body": "No commercial pressure justifies a recommendation that does not serve the client's interest. Our business model eliminates conflict — it does not manage it."
+        },
+        {
+          "num": "II",
+          "title": "Discipline Over Convenience",
+          "body": "Easy decisions are rarely correct ones. We prefer the discomfort of discipline to the comfort of improvisation."
+        },
+        {
+          "num": "III",
+          "title": "Permanence Over Quarterly Performance",
+          "body": "The objective is not to maximize a period's return. It is to build wealth that endures for generations with structural integrity."
+        },
+        {
+          "num": "IV",
+          "title": "Selectivity as Responsibility",
+          "body": "Accepting clients we cannot serve well is not a service — it is a disservice. Our commitments are selective out of respect and principle."
+        }
+      ]
+    }
+  },
+
+  "enfoque": {
+    "subnav": {
+      "filosofia": "Investment Philosophy",
+      "framework": "Methodological Framework",
+      "riesgo": "Risk Philosophy"
+    },
+    "filosofia": {
+      "kicker": "Our Approach — Investment Philosophy",
+      "heading": "Five Fundamental",
+      "heading.italic": "Convictions.",
+      "intro": "Our investment philosophy is not a marketing document. It is the operational foundation of every portfolio, recommendation and commitment.",
+      "convicciones": [
+        {
+          "num": "I",
+          "title": "Process Over Prediction",
+          "body": "We do not forecast markets — we build processes. Superior long-term results come from consistently applied disciplined decision frameworks, not foresight about future market states."
+        },
+        {
+          "num": "II",
+          "title": "Risk is Multidimensional",
+          "body": "Beyond volatility: we manage sequence-of-returns risk, liquidity risk, behavioral risk, tax drag and objective deviation — each with an explicit budget within the mandate."
+        },
+        {
+          "num": "III",
+          "title": "Structure Precedes Strategy",
+          "body": "Account structure, entity selection and asset location are as determinative as allocation. We design the complete architecture before selecting the instruments."
+        },
+        {
+          "num": "IV",
+          "title": "Alignment Through Fees",
+          "body": "We are fee-only. We do not accept commissions or product incentives. Our compensation is structurally aligned with client outcomes — not transaction volume."
+        },
+        {
+          "num": "V",
+          "title": "Permanence as a Design Criterion",
+          "body": "We build for generational relevance. Every decision is evaluated for its contribution to lasting, compounding wealth — not quarterly benchmarks or short-term performance attribution."
+        }
+      ]
+    },
+    "framework": {
+      "eyebrow": "Methodological Framework",
+      "heading": "Capital Architecture",
+      "heading.sup": "FinancialQ™",
+      "body": "A four-pillar methodology for building, governing and adapting portfolios through market regimes. Grounded in institutional principles — applied with precision to individual mandates.",
+      "pillars": [
+        {
+          "num": "01",
+          "title": "Mandate Definition",
+          "body": "Rigorous mandate specification: capital purpose, return objectives, constraint limits and time horizon with institutional precision before any allocation.",
+          "deliverables": {
+            "label": "Deliverables",
+            "items": [
+              "Signed mandate document",
+              "Quantified risk profile",
+              "Defined time horizon",
+              "Documented structural constraints"
+            ]
+          }
+        },
+        {
+          "num": "02",
+          "title": "Explicit Risk Budget",
+          "body": "Risk is the primary currency of allocation. We build portfolios by explicitly budgeting volatility, maximum drawdown and correlation — not as afterthoughts to returns.",
+          "deliverables": {
+            "label": "Managed dimensions",
+            "items": [
+              "Expected portfolio volatility",
+              "Maximum acceptable drawdown",
+              "Cross-asset class correlation",
+              "Liquidity risk and horizon"
+            ]
+          }
+        },
+        {
+          "num": "03",
+          "title": "Regime-Sensitive Allocation",
+          "body": "Economic regimes govern asset behavior. Our framework is calibrated to macroeconomic cycles, incorporating regime identification as a permanent structural input.",
+          "deliverables": {
+            "label": "Identified regimes",
+            "items": [
+              "Expansion with low inflation",
+              "Expansion with high inflation",
+              "Deflationary contraction",
+              "Stagflation / regime transition"
+            ]
+          }
+        },
+        {
+          "num": "04",
+          "title": "Capitalization Architecture",
+          "body": "Long-term outcomes are engineered through tax-efficient structuring, behavioral discipline and systematic rebalancing — allowing compounding to operate without interruption.",
+          "deliverables": {
+            "label": "Capitalization levers",
+            "items": [
+              "Efficient asset location (tax location)",
+              "Systematic rebalancing with drift threshold",
+              "Tax-loss harvesting (TLH)",
+              "Distribution and withdrawal management"
+            ]
+          }
+        }
+      ]
+    },
+    "riesgo": {
+      "kicker": "Our Approach — Risk Philosophy",
+      "heading": "Risk is",
+      "heading.italic": "Multidimensional.",
+      "body1": "Most advisors manage risk as if it exists in only one dimension: volatility. We identify and manage six dimensions simultaneously.",
+      "body2": "Each dimension receives an explicit budget within the client's mandate. There is no 'accidental' risk in a FinancialQ portfolio — every risk present was consciously accepted.",
+      "dimensions": [
+        { "num": "01", "title": "Market Risk",    "body": "Portfolio volatility and drawdown. The most measured dimension — and the least sufficient on its own for complete management." },
+        { "num": "02", "title": "Sequence Risk",  "body": "The timing of losses matters as much as their magnitude. Critically important in distribution and withdrawal phases." },
+        { "num": "03", "title": "Liquidity Risk", "body": "The ability to convert assets to cash at the needed time, at the right price and within the required horizon." },
+        { "num": "04", "title": "Behavioral Risk","body": "Decisions made under emotional stress are the most frequent source of long-term value destruction in well-constructed portfolios." },
+        { "num": "05", "title": "Tax Drag",       "body": "The cumulative tax cost of an inefficient strategy can outweigh the return differential between investment options over the long term." },
+        { "num": "06", "title": "Objective Risk", "body": "The probability of failing to achieve the financial objective defined in the mandate within the time horizon established by the client." }
+      ]
+    }
+  },
+
+  "clientes": {
+    "kicker": "Who We Serve",
+    "heading": "Designed for Exceptional",
+    "heading.italic": "Circumstances.",
+    "body1": "We work with a limited number of clients whose financial complexity demands institutional discipline — not retail solutions. Each relationship begins with a thorough mandate assessment.",
+    "body2": "Our commitments are selective by design. We do not accept clients we cannot serve well — it is a responsibility, not a commercial restriction.",
+    "profiles": [
+      {
+        "title": "High-Income Professionals",
+        "body": "Senior executives, partners and specialists with complex compensation demanding structured planning across multiple decades.",
+        "items": [
+          "Equity compensation, RSUs and stock options",
+          "Concentrated single-stock positions",
+          "Vesting planning and options exercise",
+          "Multigenerational accumulation strategies",
+          "Coordination with corporate benefits and deferred compensation"
+        ]
+      },
+      {
+        "title": "Cross-Border Entrepreneurs",
+        "body": "Business owners across multiple jurisdictions requiring integrated capital supervision and repatriation planning.",
+        "items": [
+          "Profit repatriation planning",
+          "International holding structuring",
+          "Optimization under tax treaty networks",
+          "Cross-border cash flow supervision",
+          "Cross-border succession planning"
+        ]
+      },
+      {
+        "title": "International Investors",
+        "body": "Globally mobile families and principals with U.S. and international capital seeking disciplined allocation with fiduciary rigor.",
+        "items": [
+          "Capital allocation across multiple markets",
+          "International custody coordination",
+          "PFIC, FBAR and FATCA planning",
+          "Foreign exchange management and hedging",
+          "Advisory available in ES, EN, FR, PT"
+        ]
+      },
+      {
+        "title": "Founders with Liquidity Event",
+        "body": "Post-exit founders converting concentrated, illiquid wealth into durable, multigenerational capital with full clarity.",
+        "items": [
+          "Post-exit wealth disposition strategy",
+          "Capital gains tax deferral",
+          "Concentrated position diversification",
+          "Family and next-generation structures",
+          "Philanthropic planning: DAF and foundations"
+        ]
+      }
+    ],
+    "onboarding": {
+      "eyebrow": "The Onboarding Process",
+      "heading": "How We Begin",
+      "heading.italic": "Working Together.",
+      "steps": [
+        {
+          "num": "Step 01",
+          "title": "Introductory Dialogue",
+          "body": "A confidential, no-obligation conversation to understand your circumstances and whether our approach is the right fit. No presentations, no sales pitch."
+        },
+        {
+          "num": "Step 02",
+          "title": "Mandate Assessment",
+          "body": "Structured diagnosis of your capital position, objectives, risk parameters and structural considerations. Result: a clear articulation of whether we can serve your mandate."
+        },
+        {
+          "num": "Step 03",
+          "title": "Architecture Proposal",
+          "body": "A bespoke proposal with capital architecture, fee structure and governance framework — before any decision is required from either party."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to begin a",
+      "heading.italic": "meaningful conversation?",
+      "btn": "Schedule Consultation",
+      "note": "Minimum $2M in investable assets."
+    }
+  },
+
+  "perspectivas": {
+    "kicker": "Research and Perspectives",
+    "heading": "Capital",
+    "heading.italic": "Thinking.",
+    "tabs": {
+      "all": "All",
+      "ensayo": "Essays",
+      "tecnica": "Technical Notes",
+      "carta": "Client Letters"
+    },
+    "insights": [
+      {
+        "cat": "ensayo",
+        "featured": true,
+        "tag": "Featured Essay",
+        "title": "Regime Identification as Portfolio Input: Beyond Rolling Correlation",
+        "body": "Macroeconomic regimes — not calendar periods — govern asset return distributions. We examine how identifying regime transitions improves portfolio resilience without sacrificing structural allocation discipline.",
+        "meta": "November 2024 · 14 min read"
+      },
+      {
+        "cat": "ensayo",
+        "tag": "Essay",
+        "title": "Permanence as a Design Criterion: A Defense of the Generational Horizon",
+        "body": "Why optimizing for multigenerational wealth requires actively rejecting quarterly benchmarks and short-term incentives.",
+        "meta": "August 2024 · 11 min"
+      },
+      {
+        "cat": "ensayo",
+        "tag": "Essay",
+        "title": "The Implicit Mandate Problem: Why Ambiguity Destroys Value",
+        "body": "When the purpose of capital is not explicitly articulated, decisions are made against an imaginary mandate that no one agreed upon.",
+        "meta": "June 2024 · 8 min"
+      },
+      {
+        "cat": "tecnica",
+        "tag": "Technical Note",
+        "title": "The Arithmetic of Tax Drag on Long-Term Capitalization",
+        "body": "How pre-tax return assumptions systematically overestimate wealth outcomes — and a framework for incorporating post-tax compounding from mandate inception.",
+        "meta": "October 2024 · 9 min"
+      },
+      {
+        "cat": "tecnica",
+        "tag": "Technical Note",
+        "title": "Risk Budget Construction: Methodology and Limits",
+        "body": "A technical walkthrough of explicit risk budgeting: what it measures, what it does not, and how it integrates with mandate objectives.",
+        "meta": "July 2024 · 12 min"
+      },
+      {
+        "cat": "tecnica",
+        "tag": "Technical Note",
+        "title": "Stress Regime Correlations: Why Diversification Models Fail",
+        "body": "Cross-asset correlations tend to converge toward 1.0 precisely when diversification is most needed. Implications for portfolio construction.",
+        "meta": "April 2024 · 10 min"
+      },
+      {
+        "cat": "carta",
+        "tag": "Client Letter",
+        "title": "Concentrated Capital: Discipline, Diversification and the Cost of Inaction",
+        "body": "For founders with liquidity events, the greatest risk is rarely market risk — it is position risk disguised as conviction.",
+        "meta": "September 2024 · 7 min"
+      },
+      {
+        "cat": "carta",
+        "tag": "Client Letter",
+        "title": "Q3 2024: Regime in Transition and Portfolio Positioning",
+        "body": "Our perspective on the ongoing macroeconomic regime transition and its effect on the structural positioning of client mandates.",
+        "meta": "October 2024 · 6 min"
+      },
+      {
+        "cat": "carta",
+        "tag": "Client Letter",
+        "title": "Cross-Border Planning in 2024: Regulatory Changes That Matter",
+        "body": "A summary of the most relevant international tax regulatory changes for investors with active cross-border structures in the U.S.",
+        "meta": "January 2024 · 8 min"
+      }
+    ],
+    "newsletter": {
+      "heading": "Would you like to receive our",
+      "heading.italic": "perspectives directly?",
+      "placeholder": "your@email.com",
+      "btn": "Subscribe",
+      "note": "Relevant perspectives only. No spam. Unsubscribe anytime."
+    }
+  },
+
+  "governance": {
+    "kicker": "Governance and Fiduciary Oversight",
+    "heading": "The Fiduciary Standard.",
+    "heading.italic": "Unconditionally.",
+    "obligationEyebrow": "Our Obligation",
+    "obligationHeading": "The Most Demanding",
+    "obligationHeading.italic": "Standard in the Industry.",
+    "obligationBody": "As a registered investment advisor, we are legally and ethically obligated to act in your interest — not our own. This is not a positioning statement. It is the structural foundation of every commitment we undertake.",
+    "pill": "SEC-Registered · Form ADV Part 2",
+    "obligations": [
+      {
+        "title": "Advice Free of Conflicts of Interest",
+        "body": "We have no proprietary products, accept no third-party compensation, and maintain no referral incentives that could compromise our advice."
+      },
+      {
+        "title": "Transparent Fee Disclosure",
+        "body": "All fees, methodologies and cost structures are fully disclosed before engagement. No surprises."
+      },
+      {
+        "title": "Continuous Mandate Review",
+        "body": "Portfolios are reviewed against mandate parameters at defined intervals. Regime changes trigger structured reassessment — not reactive repositioning."
+      },
+      {
+        "title": "Regulatory Compliance Architecture",
+        "body": "Fully compliant with SEC regulations. Independent custodians guarantee complete segregation of client assets from firm operations."
+      }
+    ],
+    "feeComparison": {
+      "eyebrow": "What Does Fee-Only Mean?",
+      "heading": "The Difference Between",
+      "heading.italic": "Fee-Only and Fee-Based.",
+      "feeOnly": {
+        "label": "✓ Fee-Only (FinancialQ Group)",
+        "items": [
+          "Fees charged exclusively to the client",
+          "Zero commissions from financial products",
+          "Zero third-party payments (funds, brokers, insurers)",
+          "Legal fiduciary obligation to the client at all times",
+          "Recommendations based solely on the client's interest"
+        ]
+      },
+      "feeBased": {
+        "label": "⚠ Fee-Based (traditional industry)",
+        "items": [
+          "Combination of fees and commissions",
+          "Potential income from selling specific products",
+          "Structural and frequent conflicts of interest",
+          "\"Suitability\" standard — lower than fiduciary",
+          "Incentives that do not always align with the client"
+        ]
+      }
+    },
+    "docs": {
+      "eyebrow": "Regulatory Documentation",
+      "heading": "Access to",
+      "heading.italic": "Key Documents.",
+      "body": "As a registered advisor, we are required to provide and regularly update key disclosure documents. All available at no cost and without registration.",
+      "items": [
+        { "title": "Form ADV Part 1", "desc": "Firm information · Annual update" },
+        { "title": "Form ADV Part 2", "desc": "Firm brochure · Services, fees and conflicts" },
+        { "title": "CRS — Client Relationship Summary", "desc": "Relationship summary · Required by SEC regulation" },
+        { "title": "Privacy Policy", "desc": "Data use and information protection" }
+      ]
+    }
+  },
+
+  "contacto": {
+    "kicker": "Begin the Dialogue",
+    "heading": "Start a Meaningful",
+    "heading.italic": "Conversation.",
+    "form": {
+      "eyebrow": "Contact Form",
+      "intro": "Share a brief overview of your situation. We will review your inquiry and respond within 48 business hours to determine whether we can be of assistance.",
+      "labelName": "First Name",
+      "placeholderName": "Your first name",
+      "labelLastName": "Last Name",
+      "placeholderLastName": "Your last name",
+      "labelEmail": "Email Address",
+      "placeholderEmail": "email@company.com",
+      "labelCompany": "Company or Organization (optional)",
+      "placeholderCompany": "Your company or fund name",
+      "labelProfile": "How would you describe yourself?",
+      "placeholderProfile": "Select your profile",
+      "profileOptions": [
+        "High-Income Professional",
+        "Cross-Border Entrepreneur",
+        "International Investor",
+        "Founder with Liquidity Event",
+        "Other / Prefer not to specify"
+      ],
+      "labelAssets": "Approximate Investable Assets",
+      "placeholderAssets": "Approximate range",
+      "assetOptions": [
+        "$2M – $5M",
+        "$5M – $10M",
+        "$10M – $25M",
+        "$25M – $50M",
+        "$50M+"
+      ],
+      "labelSituation": "Your Situation in Brief",
+      "placeholderSituation": "Briefly describe what brings you here. No detail required — just enough context to understand whether we are the right fit.",
+      "btnSubmit": "Submit Inquiry",
+      "privacy": "Your information is completely confidential. We do not share data with third parties. We respond within 48 business hours."
+    },
+    "info": {
+      "eyebrow": "Contact Information",
+      "officeLabel": "Main Office",
+      "officeLine1": "345 Park Avenue, Suite 2200",
+      "officeLine2": "New York, NY 10154",
+      "emailLabel": "Email Address",
+      "emailLine1": "hello@financialqgroup.com",
+      "emailLine2": "inquiries@financialqgroup.com",
+      "phoneLabel": "Phone",
+      "phoneLine1": "+1 (212) 000-0000",
+      "phoneLine2": "Monday to Friday · 9am – 6pm EST",
+      "meetingLabel": "Schedule a Meeting",
+      "meetingLine1": "Available by video call",
+      "meetingLine2": "via Zoom, Teams or direct call",
+      "eligibilityLabel": "Eligibility Criteria",
+      "eligibilityBody": "Commitments are selective. We work primarily with clients with a minimum of",
+      "eligibilityBody.bold": "$2 million in investable assets",
+      "eligibilityBody2": "and financial complexity that justifies an institutional mandate.",
+      "languagesLabel": "Available languages",
+      "languages": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇫🇷 Français",
+        "🇧🇷 Português"
+      ]
+    }
+  },
+
+  "footer": {
+    "tagline": "Fiduciary capital supervision platform for sophisticated investors. SEC-Registered. Fee-only. Conflict-free.",
+    "sections": {
+      "sobre": "About Us",
+      "enfoque": "Approach",
+      "clientes": "Clients",
+      "contacto": "Contact",
+      "legal": "Legal"
+    },
+    "links": {
+      "firma": "The Firm",
+      "equipo": "The Team",
+      "mision": "Mission and Vision",
+      "governance": "Governance",
+      "filosofia": "Philosophy",
+      "framework": "Framework",
+      "riesgo": "Risk",
+      "profesionales": "Professionals",
+      "empresarios": "Entrepreneurs",
+      "internacional": "International",
+      "fundadores": "Founders",
+      "schedule": "Schedule Meeting",
+      "perspectives": "Perspectives",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "adv": "Form ADV",
+      "crs": "CRS"
+    },
+    "legalLinks": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "adv": "ADV",
+      "crs": "CRS"
+    },
+    "disclosureLabel.bold": "Disclosures:",
+    "disclosureLabelFull.bold": "Important Disclosures:",
+    "disclosureShort": "FinancialQ Group is a registered investment advisor. All investments involve risk.",
+    "disclosureFull": "FinancialQ Group is a registered investment advisor. Registration does not imply a certain level of skill or training. Past performance is not indicative of future results. This website is for informational purposes only and does not constitute investment advice. All investments involve risk, including possible loss of principal."
+  },
+
+  "common": {
+    "logoName": "Financial",
+    "logoQ": "Q",
+    "logoTag": "Group",
+    "secPill": "SEC-Registered · Form ADV Part 2",
+    "secPillFull": "SEC-Registered · Form ADV Part 2",
+    "minAssets": "Min. $2M in assets.",
+    "minAssetsLong": "Minimum $2M in investable assets.",
+    "nyOffice": "New York, NY",
+    "email": "hello@financialqgroup.com"
+  }
+}

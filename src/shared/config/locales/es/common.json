@@ -1,0 +1,704 @@
+{
+  "nav": {
+    "sobre": "Sobre Nosotros",
+    "enfoque": "Nuestro Enfoque",
+    "clientes": "Clientes",
+    "perspectivas": "Perspectivas",
+    "cta": "Iniciar Diálogo",
+    "dropdown": {
+      "sobre": [
+        { "title": "La Firma",           "desc": "Historia, misión y estructura legal" },
+        { "title": "El Equipo",          "desc": "Directores y asesores especializados" },
+        { "title": "Misión y Visión",    "desc": "El propósito que guía cada decisión" },
+        { "title": "Gobernanza Fiduciaria", "desc": "Registro SEC · Formulario ADV" }
+      ],
+      "enfoque": [
+        { "title": "Filosofía de Inversión", "desc": "Las 5 convicciones fundamentales" },
+        { "title": "Marco Metodológico",     "desc": "Arquitectura de Capital FinancialQ™" },
+        { "title": "Filosofía de Riesgo",    "desc": "Presupuesto explícito multidimensional" },
+        { "title": "Gobernanza Fiduciaria",  "desc": "Fee-only · Sin conflictos" }
+      ],
+      "clientes": [
+        "Profesionales de Altos Ingresos",
+        "Empresarios Transfronterizos",
+        "Inversores Internacionales",
+        "Fundadores con Evento de Liquidez"
+      ]
+    }
+  },
+
+  "hero": {
+    "eyebrow": "Asesor de Inversiones Registrado en EE.UU. · Estándar Fiduciario",
+    "heading": "Gestión de",
+    "heading.italic": "Capital",
+    "heading2": "Estructurada.",
+    "subtitle": "Construida para la Permanencia.",
+    "description": "Una plataforma fiduciaria para inversores sofisticados — diseño por mandato, presupuestación explícita de riesgo y asignación sensible al régimen macroeconómico.",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Nuestro Enfoque",
+    "tags": [
+      "Diseño por Mandato",
+      "Asignación por Régimen",
+      "Presupuesto de Riesgo",
+      "Capitalización a Largo Plazo"
+    ],
+    "stats": [
+      { "number": "24",   "sup": "años", "label": "Experiencia Institucional" },
+      { "number": "$2.4", "sup": "B+",   "label": "Activos bajo Supervisión" },
+      { "number": "100",  "sup": "%",    "label": "Fiduciario Fee-Only" },
+      { "number": "18",   "sup": "+",    "label": "Mandatos Transfronterizos" }
+    ]
+  },
+
+  "marquee": {
+    "items": [
+      "Supervisión Fiduciaria",
+      "Diseño por Mandato",
+      "Asignación por Régimen",
+      "Presupuesto de Riesgo Explícito",
+      "Capitalización a Largo Plazo",
+      "Asesor Registrado SEC",
+      "Gobernanza Institucional",
+      "Estructuras Transfronterizas"
+    ]
+  },
+
+  "landing": {
+    "clients": {
+      "eyebrow": "A Quiénes Servimos",
+      "heading": "Diseñado para",
+      "heading.italic": "Circunstancias",
+      "heading2": "Excepcionales.",
+      "btnViewAll": "Ver todos los perfiles",
+      "body1": "Trabajamos con un número limitado de clientes cuya complejidad financiera exige disciplina institucional — no soluciones minoristas. Nuestros compromisos son selectivos por diseño.",
+      "body2": "Cada relación comienza con una evaluación exhaustiva del mandato antes de tomar cualquier decisión de asignación.",
+      "cards": [
+        { "title": "Profesionales de Altos Ingresos",    "body": "Compensación compleja, posiciones concentradas y acumulación a largo plazo." },
+        { "title": "Empresarios Transfronterizos",        "body": "Múltiples jurisdicciones, repatriación y coordinación bajo tratados fiscales." },
+        { "title": "Inversores Internacionales",          "body": "Capital en EE.UU. e internacional bajo un marco fiduciario sólido." },
+        { "title": "Fundadores con Evento de Liquidez",   "body": "Riqueza concentrada convertida en capital duradero post-exit." }
+      ]
+    },
+    "framework": {
+      "eyebrow": "Metodología Exclusiva",
+      "heading": "Arquitectura de Capital FinancialQ™",
+      "body": "Una metodología de cuatro pilares para construir, gobernar y adaptar portafolios a través de regímenes de mercado.",
+      "btn": "Ver Marco Completo",
+      "pillars": [
+        { "num": "01", "title": "Definición del Mandato",       "body": "Propósito del capital, objetivos y horizonte temporal." },
+        { "num": "02", "title": "Presupuesto de Riesgo",         "body": "Volatilidad, caída máxima y correlación presupuestados." },
+        { "num": "03", "title": "Asignación por Régimen",        "body": "Ciclos macroeconómicos como insumo estructural permanente." },
+        { "num": "04", "title": "Arquitectura de Capitalización","body": "Estructuración fiscal y rebalanceo sistemático." }
+      ]
+    },
+    "insights": {
+      "eyebrow": "Investigación y Perspectivas",
+      "heading": "Pensamiento de Capital.",
+      "btnAll": "Todas las Perspectivas",
+      "featured": {
+        "tag": "Ensayo Destacado",
+        "title": "Identificación de Régimen como Insumo de Portafolio",
+        "body": "Los regímenes macroeconómicos — no los períodos calendario — gobiernan las distribuciones de retorno de los activos.",
+        "meta": "Nov 2024 · 14 min"
+      },
+      "card1": {
+        "tag": "Nota Técnica",
+        "title": "La Aritmética del Arrastre Fiscal sobre la Capitalización",
+        "body": "Cómo los supuestos pre-impuestos sobreestiman sistemáticamente los resultados patrimoniales.",
+        "meta": "Oct 2024 · 9 min"
+      },
+      "card2": {
+        "tag": "Carta a Clientes",
+        "title": "Capital Concentrado: El Costo de la Inacción",
+        "body": "El mayor riesgo para un fundador post-exit rara vez es el riesgo de mercado.",
+        "meta": "Sep 2024 · 7 min"
+      }
+    },
+    "cta": {
+      "heading": "¿Listo para iniciar una",
+      "heading.italic": "conversación significativa?",
+      "btn": "Agendar una Consulta",
+      "note": "Compromisos selectivos · Mín. $2M en activos."
+    }
+  },
+
+  "sobre": {
+    "subnav": {
+      "firma": "La Firma",
+      "equipo": "El Equipo",
+      "mision": "Misión y Visión"
+    },
+    "firma": {
+      "kicker": "Sobre Nosotros — La Firma",
+      "heading": "Una Firma Construida para la",
+      "heading.italic": "Permanencia.",
+      "historyEyebrow": "Historia y Fundación",
+      "historyHeading": "Dos Décadas de",
+      "historyHeading.italic": "Disciplina Institucional.",
+      "historyBody1": "FinancialQ Group fue fundada en 2000 con una premisa simple pero radical: los inversores privados sofisticados merecen el mismo rigor metodológico que los grandes fondos institucionales — sin los conflictos de interés que caracterizan a la banca privada tradicional.",
+      "historyBody2": "Durante 24 años hemos construido y supervisado mandatos para una base de clientes deliberadamente pequeña. No gestionamos activos por escala. Gestionamos compromisos por profundidad.",
+      "legalEyebrow": "Estructura Legal y Regulatoria",
+      "legalHeading": "Registro y",
+      "legalHeading.italic": "Cumplimiento Regulatorio.",
+      "legalBody": "Operamos bajo el marco más exigente disponible para asesores de inversión en Estados Unidos.",
+      "legalPill": "SEC-Registrado · Formulario ADV Parte 2",
+      "items": [
+        {
+          "title": "Asesor de Inversiones Registrado",
+          "body": "Regulado por la SEC bajo el Investment Advisers Act de 1940. Obligación fiduciaria total con cada cliente."
+        },
+        {
+          "title": "Modelo Fee-Only",
+          "body": "Sin comisiones, sin incentivos por producto. Solo honorarios acordados directamente con el cliente."
+        },
+        {
+          "title": "Custodia Independiente",
+          "body": "Los activos de clientes se mantienen en custodios independientes completamente separados de las operaciones de la firma."
+        },
+        {
+          "title": "Membresías Profesionales",
+          "body": "CFA Institute · CFP Board · NAPFA (National Association of Personal Financial Advisors)"
+        }
+      ]
+    },
+    "equipo": {
+      "kicker": "Sobre Nosotros — El Equipo",
+      "heading": "Profundidad Institucional.",
+      "heading.italic": "Responsabilidad Personal.",
+      "intro": "Nuestros directores aportan décadas de experiencia en inversión institucional, fiscalidad y planificación patrimonial a una firma deliberadamente pequeña, enfocada y sin conflictos de interés.",
+      "members": [
+        {
+          "initials": "MQ",
+          "name": "Marcus Quinlan",
+          "role": "Director Fundador y CIO",
+          "certs": "CFA · MBA Wharton",
+          "bio": "Ex gestor de portafolio institucional con experiencia en un importante fondo de dotación universitaria. 24 años en gestión patrimonial de alta complejidad. Especialista en asignación sensible al régimen y arquitectura de mandatos."
+        },
+        {
+          "initials": "EL",
+          "name": "Elena Laurente",
+          "role": "Directora, Estrategia Patrimonial",
+          "certs": "CFP® · LLM Fiscal Internacional",
+          "bio": "Más de 20 años asesorando a familias UHNW en planificación transfronteriza, disposición de capital concentrado y marcos de gobernanza multigeneracional. Fluida en español, inglés y portugués."
+        },
+        {
+          "initials": "DK",
+          "name": "Daniel Krebs",
+          "role": "Director de Arquitectura de Riesgo",
+          "certs": "CFA · MSc Matemáticas Financieras",
+          "bio": "Especialista en riesgo cuantitativo con formación en modelado de factores institucionales. Responsable del presupuesto de riesgo explícito y el monitoreo continuo del cumplimiento de cada mandato."
+        },
+        {
+          "initials": "SA",
+          "name": "Sophia Andros",
+          "role": "Asesora Patrimonial Internacional",
+          "certs": "CFP® · Derecho Comparado",
+          "bio": "Fluida en cuatro idiomas. Asesora a empresarios transfronterizos y familias móviles sobre estructura jurídica, cumplimiento fiscal y coordinación de capital en múltiples jurisdicciones."
+        }
+      ]
+    },
+    "mision": {
+      "kicker": "Sobre Nosotros — Misión y Visión",
+      "heading": "El Propósito que Guía Cada",
+      "heading.italic": "Decisión.",
+      "missionEyebrow": "Misión",
+      "missionText": "Preservar y hacer crecer el capital de nuestros clientes a través de una disciplina de inversión estructurada, sin compromisos en el estándar fiduciario.",
+      "visionEyebrow": "Visión",
+      "visionText": "Ser el estándar de referencia para la gestión patrimonial institucional aplicada a mandatos individuales de complejidad excepcional.",
+      "valuesLabel": "Valores Institucionales",
+      "values": [
+        {
+          "num": "I",
+          "title": "Integridad Estructural",
+          "body": "No existe presión comercial que justifique una recomendación que no sirva al interés del cliente. Nuestro modelo de negocio elimina el conflicto, no lo gestiona."
+        },
+        {
+          "num": "II",
+          "title": "Disciplina sobre Conveniencia",
+          "body": "Las decisiones fáciles rara vez son las correctas. Preferimos la incomodidad de la disciplina a la comodidad de la improvisación."
+        },
+        {
+          "num": "III",
+          "title": "Permanencia sobre Rendimiento Trimestral",
+          "body": "El objetivo no es maximizar el retorno de un período. Es construir riqueza que perdure generaciones con integridad estructural."
+        },
+        {
+          "num": "IV",
+          "title": "Selectividad como Responsabilidad",
+          "body": "Aceptar clientes que no podemos servir bien no es un servicio — es un perjuicio. Nuestros compromisos son selectivos por respeto y por principio."
+        }
+      ]
+    }
+  },
+
+  "enfoque": {
+    "subnav": {
+      "filosofia": "Filosofía de Inversión",
+      "framework": "Marco Metodológico",
+      "riesgo": "Filosofía de Riesgo"
+    },
+    "filosofia": {
+      "kicker": "Nuestro Enfoque — Filosofía de Inversión",
+      "heading": "Cinco Convicciones",
+      "heading.italic": "Fundamentales.",
+      "intro": "Nuestra filosofía de inversión no es un documento de marketing. Es la base operativa de cada portafolio, recomendación y compromiso.",
+      "convicciones": [
+        {
+          "num": "I",
+          "title": "Proceso Sobre Predicción",
+          "body": "No pronosticamos mercados — construimos procesos. Los resultados superiores a largo plazo provienen de marcos de decisión disciplinados aplicados consistentemente, no de previsión sobre estados futuros del mercado."
+        },
+        {
+          "num": "II",
+          "title": "El Riesgo es Multidimensional",
+          "body": "Más allá de la volatilidad: gestionamos riesgo de secuencia de retornos, liquidez, conductual, arrastre fiscal y desviación de objetivos. Cada uno con un presupuesto explícito dentro del mandato."
+        },
+        {
+          "num": "III",
+          "title": "La Estructura Precede a la Estrategia",
+          "body": "La estructura de cuentas, selección de entidades y ubicación de activos son tan determinantes como la asignación. Diseñamos la arquitectura completa antes de elegir los instrumentos."
+        },
+        {
+          "num": "IV",
+          "title": "Alineación a través de los Honorarios",
+          "body": "Somos fee-only. No aceptamos comisiones ni incentivos por producto. Nuestra compensación está estructuralmente alineada con los resultados del cliente — no con el volumen de transacciones."
+        },
+        {
+          "num": "V",
+          "title": "La Permanencia como Criterio de Diseño",
+          "body": "Construimos para la relevancia generacional. Cada decisión se evalúa por su contribución a riqueza duradera y compuesta — no por benchmarks trimestrales ni atribución de desempeño de corto plazo."
+        }
+      ]
+    },
+    "framework": {
+      "eyebrow": "Marco Metodológico",
+      "heading": "Arquitectura de Capital",
+      "heading.sup": "FinancialQ™",
+      "body": "Una metodología de cuatro pilares para construir, gobernar y adaptar portafolios a través de regímenes de mercado. Basada en principios institucionales — aplicada con precisión a mandatos individuales.",
+      "pillars": [
+        {
+          "num": "01",
+          "title": "Definición del Mandato",
+          "body": "Especificación rigurosa del mandato: propósito del capital, objetivos de retorno, límites de restricciones y horizonte temporal con precisión institucional antes de cualquier asignación.",
+          "deliverables": {
+            "label": "Entregables",
+            "items": [
+              "Documento de mandato firmado",
+              "Perfil de riesgo cuantificado",
+              "Horizonte temporal definido",
+              "Restricciones estructurales documentadas"
+            ]
+          }
+        },
+        {
+          "num": "02",
+          "title": "Presupuesto Explícito de Riesgo",
+          "body": "El riesgo es la moneda principal de asignación. Construimos portafolios presupuestando explícitamente la volatilidad, caída máxima y correlación — no como reflexiones posteriores a los retornos.",
+          "deliverables": {
+            "label": "Dimensiones gestionadas",
+            "items": [
+              "Volatilidad esperada del portafolio",
+              "Drawdown máximo aceptable",
+              "Correlación entre clases de activos",
+              "Riesgo de liquidez y horizonte"
+            ]
+          }
+        },
+        {
+          "num": "03",
+          "title": "Asignación Sensible al Régimen",
+          "body": "Los regímenes económicos gobiernan el comportamiento de los activos. Nuestro marco está calibrado a ciclos macroeconómicos, incorporando la identificación de régimen como insumo estructural permanente.",
+          "deliverables": {
+            "label": "Regímenes identificados",
+            "items": [
+              "Expansión con baja inflación",
+              "Expansión con alta inflación",
+              "Contracción deflacionaria",
+              "Estanflación / transición de régimen"
+            ]
+          }
+        },
+        {
+          "num": "04",
+          "title": "Arquitectura de Capitalización",
+          "body": "Los resultados a largo plazo se diseñan mediante estructuración fiscalmente eficiente, disciplina conductual y rebalanceo sistemático — permitiendo que la capitalización compuesta opere sin interrupciones.",
+          "deliverables": {
+            "label": "Palancas de capitalización",
+            "items": [
+              "Ubicación eficiente de activos (tax location)",
+              "Rebalanceo sistemático con umbral de deriva",
+              "Cosecheo de pérdidas fiscales (TLH)",
+              "Gestión de distribuciones y retiros"
+            ]
+          }
+        }
+      ]
+    },
+    "riesgo": {
+      "kicker": "Nuestro Enfoque — Filosofía de Riesgo",
+      "heading": "El Riesgo es",
+      "heading.italic": "Multidimensional.",
+      "body1": "La mayoría de los asesores gestionan el riesgo como si solo existiera en una dimensión: la volatilidad. Nosotros identificamos y gestionamos seis dimensiones simultáneamente.",
+      "body2": "Cada dimensión recibe un presupuesto explícito dentro del mandato del cliente. No hay riesgo \"accidental\" en un portafolio FinancialQ — todo riesgo presente fue aceptado conscientemente.",
+      "dimensions": [
+        { "num": "01", "title": "Riesgo de Mercado",    "body": "Volatilidad y drawdown del portafolio. La dimensión más medida — y la menos suficiente por sí sola para una gestión completa." },
+        { "num": "02", "title": "Riesgo de Secuencia",  "body": "El momento en que ocurren las pérdidas importa tanto como su magnitud. Crítico especialmente en fases de distribución y retiro." },
+        { "num": "03", "title": "Riesgo de Liquidez",   "body": "La capacidad de convertir activos en efectivo en el momento necesario, al precio correcto y dentro del horizonte requerido." },
+        { "num": "04", "title": "Riesgo Conductual",    "body": "Las decisiones tomadas bajo estrés emocional son la fuente más frecuente de destrucción de valor a largo plazo en portafolios bien construidos." },
+        { "num": "05", "title": "Arrastre Fiscal",       "body": "El costo fiscal acumulado de una estrategia ineficiente puede superar la diferencia de retorno entre opciones de inversión en el largo plazo." },
+        { "num": "06", "title": "Riesgo de Objetivo",   "body": "La probabilidad de no alcanzar el objetivo financiero definido en el mandato dentro del horizonte temporal establecido por el cliente." }
+      ]
+    }
+  },
+
+  "clientes": {
+    "kicker": "A Quiénes Servimos",
+    "heading": "Diseñado para Circunstancias",
+    "heading.italic": "Excepcionales.",
+    "body1": "Trabajamos con un número limitado de clientes cuya complejidad financiera exige disciplina institucional — no soluciones minoristas. Cada relación comienza con una evaluación exhaustiva del mandato.",
+    "body2": "Nuestros compromisos son selectivos por diseño. No aceptamos clientes que no podamos servir bien — es una responsabilidad, no una restricción comercial.",
+    "profiles": [
+      {
+        "title": "Profesionales de Altos Ingresos",
+        "body": "Ejecutivos senior, socios y especialistas con compensación compleja que exige planificación estructurada a múltiples décadas.",
+        "items": [
+          "Compensación en acciones, RSUs y stock options",
+          "Posiciones concentradas en una sola acción",
+          "Planificación de vesting y ejercicio de opciones",
+          "Estrategias de acumulación multigeneracional",
+          "Coordinación con beneficios y deferred comp corporativos"
+        ]
+      },
+      {
+        "title": "Empresarios Transfronterizos",
+        "body": "Propietarios de empresas en múltiples jurisdicciones que requieren supervisión integrada de capital y planificación de repatriación.",
+        "items": [
+          "Planificación de repatriación de utilidades",
+          "Estructuración de holdings internacionales",
+          "Optimización bajo tratados de doble tributación",
+          "Supervisión de flujos entre países",
+          "Planificación de sucesión transfronteriza"
+        ]
+      },
+      {
+        "title": "Inversores Internacionales",
+        "body": "Familias y principales globalmente móviles con capital en EE.UU. e internacional que buscan asignación disciplinada con rigor fiduciario.",
+        "items": [
+          "Asignación de capital en múltiples mercados",
+          "Coordinación de custodia internacional",
+          "Planificación PFIC, FBAR y FATCA",
+          "Gestión de divisas y cobertura cambiaria",
+          "Asesoría disponible en ES, EN, FR, PT"
+        ]
+      },
+      {
+        "title": "Fundadores con Evento de Liquidez",
+        "body": "Fundadores post-exit que convierten riqueza concentrada e ilíquida en capital duradero y multigeneracional con plena claridad.",
+        "items": [
+          "Estrategia de disposición patrimonial post-exit",
+          "Diferimiento fiscal de ganancias de capital",
+          "Diversificación de posición concentrada",
+          "Estructuras para familia y próxima generación",
+          "Planificación filantrópica: DAF y fundaciones"
+        ]
+      }
+    ],
+    "onboarding": {
+      "eyebrow": "El Proceso de Incorporación",
+      "heading": "Cómo Comenzamos a",
+      "heading.italic": "Trabajar Juntos.",
+      "steps": [
+        {
+          "num": "Paso 01",
+          "title": "Diálogo Introductorio",
+          "body": "Conversación confidencial sin compromiso para comprender sus circunstancias y si nuestro enfoque es el adecuado. Sin presentaciones, sin discurso de ventas."
+        },
+        {
+          "num": "Paso 02",
+          "title": "Evaluación del Mandato",
+          "body": "Diagnóstico estructurado de su posición de capital, objetivos, parámetros de riesgo y consideraciones estructurales. Resultado: articulación clara de si podemos servir su mandato."
+        },
+        {
+          "num": "Paso 03",
+          "title": "Propuesta de Arquitectura",
+          "body": "Propuesta a medida con arquitectura de capital, estructura de honorarios y marco de gobernanza — antes de que se requiera ninguna decisión de ninguna de las partes."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "¿Listo para iniciar una",
+      "heading.italic": "conversación significativa?",
+      "btn": "Agendar Consulta",
+      "note": "Mínimo $2M en activos invertibles."
+    }
+  },
+
+  "perspectivas": {
+    "kicker": "Investigación y Perspectivas",
+    "heading": "Pensamiento de",
+    "heading.italic": "Capital.",
+    "tabs": {
+      "all": "Todos",
+      "ensayo": "Ensayos",
+      "tecnica": "Notas Técnicas",
+      "carta": "Cartas a Clientes"
+    },
+    "insights": [
+      {
+        "cat": "ensayo",
+        "featured": true,
+        "tag": "Ensayo Destacado",
+        "title": "Identificación de Régimen como Insumo de Portafolio: Más Allá de la Correlación Móvil",
+        "body": "Los regímenes macroeconómicos — no los períodos calendario — gobiernan las distribuciones de retorno de los activos. Examinamos cómo identificar transiciones de régimen mejora la resiliencia del portafolio sin sacrificar la disciplina de asignación estructural.",
+        "meta": "Noviembre 2024 · 14 min de lectura"
+      },
+      {
+        "cat": "ensayo",
+        "tag": "Ensayo",
+        "title": "Permanencia como Criterio de Diseño: Una Defensa del Horizonte Generacional",
+        "body": "Por qué optimizar para la riqueza multigeneracional requiere rechazar activamente los benchmarks trimestrales y los incentivos de corto plazo.",
+        "meta": "Agosto 2024 · 11 min"
+      },
+      {
+        "cat": "ensayo",
+        "tag": "Ensayo",
+        "title": "El Problema del Mandato Implícito: Por Qué la Ambigüedad Destruye Valor",
+        "body": "Cuando el propósito del capital no está articulado explícitamente, las decisiones se toman contra un mandato imaginario que nadie acordó.",
+        "meta": "Junio 2024 · 8 min"
+      },
+      {
+        "cat": "tecnica",
+        "tag": "Nota Técnica",
+        "title": "La Aritmética del Arrastre Fiscal sobre la Capitalización a Largo Plazo",
+        "body": "Cómo los supuestos de retorno pre-impuestos sobreestiman sistemáticamente los resultados patrimoniales — y un marco para incorporar la capitalización post-impuestos desde el inicio del mandato.",
+        "meta": "Octubre 2024 · 9 min"
+      },
+      {
+        "cat": "tecnica",
+        "tag": "Nota Técnica",
+        "title": "Construcción de Presupuesto de Riesgo: Metodología y Límites",
+        "body": "Un recorrido técnico por la construcción del presupuesto de riesgo explícito: qué mide, qué no mide, y cómo se integra con los objetivos del mandato.",
+        "meta": "Julio 2024 · 12 min"
+      },
+      {
+        "cat": "tecnica",
+        "tag": "Nota Técnica",
+        "title": "Correlaciones en Régimen de Estrés: Por Qué Fallan los Modelos de Diversificación",
+        "body": "Las correlaciones entre clases de activos tienden a converger hacia 1.0 exactamente cuando más se necesita la diversificación. Implicaciones para la construcción de portafolios.",
+        "meta": "Abril 2024 · 10 min"
+      },
+      {
+        "cat": "carta",
+        "tag": "Carta a Clientes",
+        "title": "Capital Concentrado: Disciplina, Diversificación y el Costo de la Inacción",
+        "body": "Para los fundadores con eventos de liquidez, el mayor riesgo rara vez es el riesgo de mercado — es el riesgo de posición disfrazado de convicción.",
+        "meta": "Septiembre 2024 · 7 min"
+      },
+      {
+        "cat": "carta",
+        "tag": "Carta a Clientes",
+        "title": "Tercer Trimestre 2024: Régimen en Transición y Posicionamiento de Portafolios",
+        "body": "Nuestra perspectiva sobre la transición de régimen macroeconómico en curso y cómo afecta el posicionamiento estructural de los mandatos de clientes.",
+        "meta": "Octubre 2024 · 6 min"
+      },
+      {
+        "cat": "carta",
+        "tag": "Carta a Clientes",
+        "title": "Planificación Transfronteriza en 2024: Cambios Regulatorios que Importan",
+        "body": "Resumen de los cambios más relevantes en regulación fiscal internacional para inversores con estructuras transfronterizas activas en EE.UU.",
+        "meta": "Enero 2024 · 8 min"
+      }
+    ],
+    "newsletter": {
+      "heading": "¿Desea recibir nuestras",
+      "heading.italic": "perspectivas directamente?",
+      "placeholder": "su@correo.com",
+      "btn": "Suscribirse",
+      "note": "Solo perspectivas relevantes. Sin spam. Baja cuando quiera."
+    }
+  },
+
+  "governance": {
+    "kicker": "Gobernanza y Supervisión Fiduciaria",
+    "heading": "El Estándar Fiduciario.",
+    "heading.italic": "Sin Condiciones.",
+    "obligationEyebrow": "Nuestra Obligación",
+    "obligationHeading": "El Estándar más",
+    "obligationHeading.italic": "Exigente del Sector.",
+    "obligationBody": "Como asesor de inversiones registrado, estamos legal y éticamente obligados a actuar en su interés — no en el nuestro. Esta no es una declaración de posicionamiento. Es el fundamento estructural de cada compromiso que asumimos.",
+    "pill": "Registrado en la SEC · Formulario ADV Parte 2",
+    "obligations": [
+      {
+        "title": "Asesoría sin Conflictos de Interés",
+        "body": "No tenemos productos propios, no aceptamos compensación de terceros y no mantenemos incentivos de captación que comprometan nuestro asesoramiento."
+      },
+      {
+        "title": "Divulgación Transparente de Honorarios",
+        "body": "Todos los honorarios, metodologías y estructuras de costos se divulgan completamente antes del compromiso. Sin sorpresas."
+      },
+      {
+        "title": "Revisión Continua del Mandato",
+        "body": "Los portafolios se revisan contra los parámetros del mandato en intervalos definidos. Los cambios de régimen desencadenan reevaluación estructurada — no reposicionamiento reactivo."
+      },
+      {
+        "title": "Arquitectura de Cumplimiento Regulatorio",
+        "body": "Totalmente conforme con regulaciones SEC. Custodios independientes garantizan segregación completa de activos de las operaciones de la firma."
+      }
+    ],
+    "feeComparison": {
+      "eyebrow": "¿Qué Significa Fee-Only?",
+      "heading": "La Diferencia entre",
+      "heading.italic": "Fee-Only y Fee-Based.",
+      "feeOnly": {
+        "label": "✓ Fee-Only (FinancialQ Group)",
+        "items": [
+          "Honorarios cobrados exclusivamente al cliente",
+          "Cero comisiones de productos financieros",
+          "Cero pagos de terceros (fondos, corredores, aseguradoras)",
+          "Obligación fiduciaria legal con el cliente en todo momento",
+          "Recomendaciones basadas únicamente en el interés del cliente"
+        ]
+      },
+      "feeBased": {
+        "label": "⚠ Fee-Based (industria tradicional)",
+        "items": [
+          "Combinación de honorarios y comisiones",
+          "Posibles ingresos por venta de productos específicos",
+          "Conflictos de interés estructurales y frecuentes",
+          "Estándar de \"idoneidad\" — menor que el fiduciario",
+          "Incentivos que no siempre se alinean con el cliente"
+        ]
+      }
+    },
+    "docs": {
+      "eyebrow": "Documentación Regulatoria",
+      "heading": "Acceso a",
+      "heading.italic": "Documentos Clave.",
+      "body": "Como asesor registrado, estamos obligados a proporcionar y actualizar regularmente documentos clave de divulgación. Todos disponibles sin costo ni registro.",
+      "items": [
+        { "title": "Formulario ADV Parte 1", "desc": "Información de la firma · Actualización anual" },
+        { "title": "Formulario ADV Parte 2", "desc": "Brochure de la firma · Servicios, honorarios y conflictos" },
+        { "title": "CRS — Client Relationship Summary", "desc": "Resumen de relación · Requerido por regulación SEC" },
+        { "title": "Política de Privacidad", "desc": "Uso de datos y protección de información" }
+      ]
+    }
+  },
+
+  "contacto": {
+    "kicker": "Iniciar Diálogo",
+    "heading": "Comenzar una Conversación",
+    "heading.italic": "Significativa.",
+    "form": {
+      "eyebrow": "Formulario de Contacto",
+      "intro": "Comparta brevemente su situación. Revisaremos su consulta y responderemos en un plazo de 48 horas hábiles para determinar si podemos ser de ayuda.",
+      "labelName": "Nombre",
+      "placeholderName": "Su nombre completo",
+      "labelLastName": "Apellido",
+      "placeholderLastName": "Su apellido",
+      "labelEmail": "Correo Electrónico",
+      "placeholderEmail": "correo@empresa.com",
+      "labelCompany": "Empresa u Organización (opcional)",
+      "placeholderCompany": "Nombre de su empresa o fondo",
+      "labelProfile": "¿Cómo lo describiría?",
+      "placeholderProfile": "Seleccione su perfil",
+      "profileOptions": [
+        "Profesional de Altos Ingresos",
+        "Empresario Transfronterizo",
+        "Inversor Internacional",
+        "Fundador con Evento de Liquidez",
+        "Otro / Prefiero no especificar"
+      ],
+      "labelAssets": "Activos Invertibles Aproximados",
+      "placeholderAssets": "Rango aproximado",
+      "assetOptions": [
+        "$2M – $5M",
+        "$5M – $10M",
+        "$10M – $25M",
+        "$25M – $50M",
+        "$50M+"
+      ],
+      "labelSituation": "Su Situación en Pocas Palabras",
+      "placeholderSituation": "Describa brevemente qué lo trae aquí. No se requiere detalle — solo el contexto suficiente para entender si somos el ajuste correcto.",
+      "btnSubmit": "Enviar Consulta",
+      "privacy": "Su información es completamente confidencial. No compartimos datos con terceros. Respondemos en 48 horas hábiles."
+    },
+    "info": {
+      "eyebrow": "Información de Contacto",
+      "officeLabel": "Oficina Principal",
+      "officeLine1": "345 Park Avenue, Suite 2200",
+      "officeLine2": "Nueva York, NY 10154",
+      "emailLabel": "Correo Electrónico",
+      "emailLine1": "hola@financialqgroup.com",
+      "emailLine2": "consultas@financialqgroup.com",
+      "phoneLabel": "Teléfono",
+      "phoneLine1": "+1 (212) 000-0000",
+      "phoneLine2": "Lunes a Viernes · 9am – 6pm EST",
+      "meetingLabel": "Agendar Reunión",
+      "meetingLine1": "Disponible por videollamada",
+      "meetingLine2": "en Zoom, Teams o llamada directa",
+      "eligibilityLabel": "Criterios de Elegibilidad",
+      "eligibilityBody": "Los compromisos son selectivos. Trabajamos principalmente con clientes con un mínimo de",
+      "eligibilityBody.bold": "$2 millones en activos invertibles",
+      "eligibilityBody2": "y complejidad financiera que justifique un mandato institucional.",
+      "languagesLabel": "Idiomas disponibles",
+      "languages": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇫🇷 Français",
+        "🇧🇷 Português"
+      ]
+    }
+  },
+
+  "footer": {
+    "tagline": "Plataforma fiduciaria de supervisión de capital para inversores sofisticados. Registrado en la SEC. Fee-only. Sin conflictos.",
+    "sections": {
+      "sobre": "Sobre Nosotros",
+      "enfoque": "Enfoque",
+      "clientes": "Clientes",
+      "contacto": "Contacto",
+      "legal": "Legal"
+    },
+    "links": {
+      "firma": "La Firma",
+      "equipo": "El Equipo",
+      "mision": "Misión y Visión",
+      "governance": "Gobernanza",
+      "filosofia": "Filosofía",
+      "framework": "Framework",
+      "riesgo": "Riesgo",
+      "profesionales": "Profesionales",
+      "empresarios": "Empresarios",
+      "internacional": "Internacional",
+      "fundadores": "Fundadores",
+      "schedule": "Agendar Reunión",
+      "perspectives": "Perspectivas",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso",
+      "adv": "Formulario ADV",
+      "crs": "CRS"
+    },
+    "legalLinks": {
+      "privacy": "Privacidad",
+      "terms": "Términos",
+      "adv": "ADV",
+      "crs": "CRS"
+    },
+    "disclosureLabel.bold": "Divulgaciones:",
+    "disclosureLabelFull.bold": "Divulgaciones Importantes:",
+    "disclosureShort": "FinancialQ Group es un asesor de inversiones registrado. Toda inversión conlleva riesgo.",
+    "disclosureFull": "FinancialQ Group es un asesor de inversiones registrado. El registro no implica un determinado nivel de habilidad o formación. El rendimiento pasado no es indicativo de resultados futuros. Este sitio web es solo para fines informativos y no constituye asesoramiento de inversión. Toda inversión conlleva riesgo, incluida la posible pérdida del capital principal."
+  },
+
+  "common": {
+    "logoName": "Financial",
+    "logoQ": "Q",
+    "logoTag": "Group",
+    "secPill": "SEC-Registrado · Formulario ADV Parte 2",
+    "secPillFull": "Registrado en la SEC · Formulario ADV Parte 2",
+    "minAssets": "Mín. $2M en activos.",
+    "minAssetsLong": "Mínimo $2M en activos invertibles.",
+    "nyOffice": "Nueva York, NY",
+    "email": "hola@financialqgroup.com"
+  }
+}

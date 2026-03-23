@@ -1,0 +1,73 @@
+.btn-solid {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--blue);
+  padding: 14px 36px;
+  border-radius: 5px;
+  border: 1.5px solid var(--blue);
+  text-decoration: none;
+  display: inline-block;
+  transition: background .2s, transform .18s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn-solid:hover {
+  background: var(--blue-deep);
+  border-color: var(--blue-deep);
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--black);
+  background: transparent;
+  padding: 14px 36px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(35, 31, 32, .22);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  transition: border-color .2s, color .2s, transform .18s;
+  cursor: pointer;
+}
+.btn-ghost:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+  transform: translateY(-1px);
+}
+.btn-ghost svg {
+  width: 11px;
+  height: 11px;
+}
+
+.btn-ivory {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--black);
+  background: var(--ivory);
+  border: 1.5px solid var(--ivory);
+  padding: 14px 36px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background .2s, transform .18s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn-ivory:hover {
+  background: var(--ivory-dark);
+  border-color: var(--ivory-dark);
+  transform: translateY(-1px);
+}

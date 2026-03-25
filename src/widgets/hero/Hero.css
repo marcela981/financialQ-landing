@@ -67,7 +67,7 @@
 }
 
 .hero-btns {
-  display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+  display: flex; gap: 12px; margin-top: 20px; justify-content: center; flex-wrap: wrap;
   animation: fadeUp .9s .82s both;
 }
 

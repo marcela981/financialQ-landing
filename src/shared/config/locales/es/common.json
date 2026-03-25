@@ -1027,5 +1027,8 @@
     "minAssetsLong": "Mínimo $2M en activos invertibles.",
     "nyOffice": "Nueva York, NY",
     "email": "hola@financialqgroup.com"
+  },
+  "picker": {
+    "change": "Cambiar idioma"
   }
 }

@@ -1,5 +1,6 @@
 import './Footer.css'
 import { t } from '../../shared/config/locales'
+import { useAppNavigate } from '../../shared/lib/useAppNavigate'
 
 const tf = t.footer
 
@@ -14,10 +15,9 @@ function LegalLinks() {
   )
 }
 
-/**
- * @param {{ variant?: 'full'|'mini', navigate?: Function }} props
- */
-export function Footer({ variant = 'mini', navigate }) {
+export function Footer({ variant = 'mini' }) {
+  const navigate = useAppNavigate()
+
   if (variant === 'mini') {
     return (
       <footer className="main-footer">
@@ -48,7 +48,7 @@ export function Footer({ variant = 'mini', navigate }) {
               <li><span onClick={() => navigate('sobre', 'firma')}>{tf.links.firma}</span></li>
               <li><span onClick={() => navigate('sobre', 'equipo')}>{tf.links.equipo}</span></li>
               <li><span onClick={() => navigate('sobre', 'mision')}>{tf.links.mision}</span></li>
-              <li><span onClick={() => navigate('governance')}>{tf.links.governance}</span></li>
+              <li><span onClick={() => navigate('sobre', 'governance')}>{tf.links.governance}</span></li>
             </ul>
           </div>
 

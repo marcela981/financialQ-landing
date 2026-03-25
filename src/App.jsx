@@ -1,36 +1,44 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import { Header } from './widgets/header/Header'
 import { LandingPage } from './pages/landing/LandingPage'
 import { AboutUsPage } from './pages/aboutUs/AboutUsPage'
 import { OurApproachPage } from './pages/ourApproach/OurApproachPage'
 import { CustomerPage } from './pages/customer/CustomerPage'
 import { PerspectivesPage } from './pages/perspectives/PerspectivesPage'
-import { GovernancePage } from './pages/aboutUs/governance/GovernancePage'
 import { ContactoPage } from './pages/contacto/ContactoPage'
+import { LanguagePicker } from './shared/ui/languagePicker/LanguagePicker'
 
 function App() {
-  const [nav, setNav] = useState({ page: 'inicio', sub: null })
-
-  const navigate = (page, sub = null) => {
-    setNav({ page, sub })
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-
-  const pages = {
-    inicio: <LandingPage navigate={navigate} />,
-    sobre: <AboutUsPage sub={nav.sub} />,
-    enfoque: <OurApproachPage sub={nav.sub} />,
-    clientes: <CustomerPage navigate={navigate} />,
-    perspectivas: <PerspectivesPage />,
-    governance: <GovernancePage navigate={navigate} />,
-    contacto: <ContactoPage navigate={navigate} />,
-  }
-
   return (
     <>
-      <Header navigate={navigate} />
+      <Header />
+      <LanguagePicker />
       <main style={{ paddingTop: 'var(--nav-h)' }}>
-        {pages[nav.page] ?? pages.inicio}
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+
+          {/* About Us — ES + EN */}
+          <Route path="/sobre/:sub?" element={<AboutUsPage />} />
+          <Route path="/about/:sub?" element={<AboutUsPage />} />
+
+          {/* Our Approach — ES + EN */}
+          <Route path="/enfoque/:sub?" element={<OurApproachPage />} />
+          <Route path="/approach/:sub?" element={<OurApproachPage />} />
+
+          {/* Clients — ES + EN */}
+          <Route path="/clientes" element={<CustomerPage />} />
+          <Route path="/clients" element={<CustomerPage />} />
+
+          {/* Perspectives — ES + EN */}
+          <Route path="/perspectivas" element={<PerspectivesPage />} />
+          <Route path="/perspectives" element={<PerspectivesPage />} />
+
+          {/* Contact — ES + EN */}
+          <Route path="/contacto" element={<ContactoPage />} />
+          <Route path="/contact" element={<ContactoPage />} />
+
+          <Route path="*" element={<LandingPage />} />
+        </Routes>
       </main>
     </>
   )

@@ -1,13 +1,15 @@
 import { Footer } from '../../widgets/footer/Footer'
 import { Button } from '../../shared/ui/button/Button'
 import { useScrollReveal } from '../../shared/lib/useScrollReveal'
+import { useAppNavigate } from '../../shared/lib/useAppNavigate'
 import { t } from '../../shared/config/locales'
 import './ui/customerPage.css'
 
 const tc = t.clientes
 
-export function CustomerPage({ navigate }) {
+export function CustomerPage() {
   useScrollReveal()
+  const navigate = useAppNavigate()
 
   const [h1, h2, h3] = tc.intro.headline
   const [cg1, cg2, cg3] = tc.commonGround.heading

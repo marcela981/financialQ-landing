@@ -1026,5 +1026,8 @@
     "minAssetsLong": "Minimum $2M in investable assets.",
     "nyOffice": "New York, NY",
     "email": "hello@financialqgroup.com"
+  },
+  "picker": {
+    "change": "Change language"
   }
 }

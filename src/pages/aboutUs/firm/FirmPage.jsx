@@ -1,6 +1,8 @@
 import { Footer } from '../../../widgets/footer/Footer'
 import { useScrollReveal } from '../../../shared/lib/useScrollReveal'
 import { t } from '../../../shared/config/locales'
+import { PageHero } from '../../../shared/ui/pageHero/PageHero'
+import { ValueList } from '../../../shared/ui/valueList/ValueList'
 
 const tf = t.sobre.firma
 
@@ -9,13 +11,7 @@ export function FirmPage() {
 
   return (
     <>
-      <div className="pg-hero">
-        <div className="pg-hero-bg" />
-        <div className="wrap" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="pg-kicker">{tf.kicker}</div>
-          <h1 className="pg-title">{tf.heading}<br /><em>{tf['heading.italic']}</em></h1>
-        </div>
-      </div>
+      <PageHero kicker={tf.kicker} heading={tf.heading} headingItalic={tf['heading.italic']} />
 
       <section className="section">
         <div className="wrap">
@@ -45,18 +41,12 @@ export function FirmPage() {
               <p className="body-copy" style={{ marginTop: 18, marginBottom: 28 }}>{tf.legalBody}</p>
               <div className="gpill"><div className="gpill-dot" />{tf.legalPill}</div>
             </div>
-            <div className="vlist reveal d1">
-              {tf.items.map(item => (
-                <div key={item.title} className="vitem">
-                  <div className="v-num">·</div>
-                  <div><div className="v-title">{item.title}</div><div className="v-body">{item.body}</div></div>
-                </div>
-              ))}
-            </div>
+            <ValueList items={tf.items} delay={1} />
           </div>
         </div>
       </section>
-    <Footer variant="mini" />
+
+      <Footer variant="mini" />
     </>
   )
 }

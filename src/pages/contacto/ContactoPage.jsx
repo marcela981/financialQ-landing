@@ -2,6 +2,7 @@ import { Footer } from '../../widgets/footer/Footer'
 import { Button } from '../../shared/ui/button/Button'
 import { useScrollReveal } from '../../shared/lib/useScrollReveal'
 import { t } from '../../shared/config/locales'
+import { PageHero } from '../../shared/ui/pageHero/PageHero'
 
 const tc = t.contacto
 const tf = tc.form
@@ -54,18 +55,12 @@ function ContactInfo() {
   )
 }
 
-export function ContactoPage({ navigate }) {
+export function ContactoPage() {
   useScrollReveal()
 
   return (
     <div>
-      <div className="pg-hero">
-        <div className="pg-hero-bg" />
-        <div className="wrap" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="pg-kicker">{tc.kicker}</div>
-          <h1 className="pg-title">{tc.heading}<br /><em>{tc['heading.italic']}</em></h1>
-        </div>
-      </div>
+      <PageHero kicker={tc.kicker} heading={tc.heading} headingItalic={tc['heading.italic']} />
 
       <section className="section">
         <div className="wrap">
@@ -122,7 +117,7 @@ export function ContactoPage({ navigate }) {
         </div>
       </section>
 
-      <Footer variant="full" navigate={navigate} />
+      <Footer variant="full" />
     </div>
   )
 }

@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './Header.css'
 import { t } from '../../shared/config/locales'
+import { useAppNavigate } from '../../shared/lib/useAppNavigate'
 import logoImg from '../../assets/images/hero/logo_financialQ.png'
 
 const tn = t.nav
-const SOBRE_SUBS = ['firma', 'equipo', 'mision', null]
+const SOBRE_SUBS = ['firma', 'equipo', 'mision', 'governance']
 const ENFOQUE_SUBS = ['filosofia', 'framework', 'proceso', 'riesgo']
 
-export function Header({ navigate }) {
+export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const navigate = useAppNavigate()
 
   const go = (page, sub) => {
     navigate(page, sub)
@@ -32,7 +34,7 @@ export function Header({ navigate }) {
             </div>
             <div className="nav-drop wide">
               {tn.dropdown.sobre.map((item, i) => (
-                <div key={i} className="drop-item" onClick={() => go('sobre', SOBRE_SUBS[i] ?? 'governance')}>
+                <div key={i} className="drop-item" onClick={() => go('sobre', SOBRE_SUBS[i])}>
                   <span className="drop-title">{item.title}</span>
                   <span className="drop-desc">{item.desc}</span>
                 </div>
@@ -49,11 +51,7 @@ export function Header({ navigate }) {
             </div>
             <div className="nav-drop wide">
               {tn.dropdown.enfoque.slice(0, ENFOQUE_SUBS.length).map((item, i) => (
-                <div
-                  key={i}
-                  className="drop-item"
-                  onClick={() => go('enfoque', ENFOQUE_SUBS[i])}
-                >
+                <div key={i} className="drop-item" onClick={() => go('enfoque', ENFOQUE_SUBS[i])}>
                   <span className="drop-title">{item.title}</span>
                   <span className="drop-desc">{item.desc}</span>
                 </div>

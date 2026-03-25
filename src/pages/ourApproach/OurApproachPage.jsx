@@ -1,11 +1,13 @@
-import { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { t } from '../../shared/config/locales'
+import { useAppNavigate } from '../../shared/lib/useAppNavigate'
+import { useTranslation } from '../../shared/config/locales/i18nContext'
+import { SLUG_TO_KEY } from '../../shared/config/routes'
+import { SubNav } from '../../shared/ui/subNav/SubNav'
 import { InvestmentPhilosophyPage } from './investmentPhilosophy/InvestmentPhilosophyPage'
 import { MethodologicalFrameworkPage } from './methodologicalFramework/MethodologicalFrameworkPage'
 import { OurMethodologyPage } from './ourMethodology/ourMethodology'
 import { RiskPhilosophyPage } from './riskPhilosophy/RiskPhilosophyPage'
-
-const subnav = t.enfoque.subnav
 
 const subPages = {
   filosofia: InvestmentPhilosophyPage,
@@ -14,36 +16,18 @@ const subPages = {
   riesgo:    RiskPhilosophyPage,
 }
 
-function SubNav({ active, onChange }) {
-  return (
-    <div className="subnav">
-      <div className="subnav-inner">
-        {Object.entries(subnav).map(([key, label]) => (
-          <span
-            key={key}
-            className={`snav-link${active === key ? ' active' : ''}`}
-            onClick={() => onChange(key)}
-          >
-            {label}
-          </span>
-        ))}
-      </div>
-    </div>
-  )
-}
+export function OurApproachPage() {
+  const { sub: slugSub } = useParams()
+  const { lang } = useTranslation()
+  const navigate = useAppNavigate()
 
-export function OurApproachPage({ sub }) {
-  const [active, setActive] = useState(sub ?? 'filosofia')
-
-  useEffect(() => {
-    if (sub) setActive(sub)
-  }, [sub])
-
+  // Convierte el slug de la URL (e.g. 'philosophy') a clave interna (e.g. 'filosofia')
+  const active = slugSub ? (SLUG_TO_KEY[lang][slugSub] ?? slugSub) : 'filosofia'
   const Page = subPages[active] ?? subPages.filosofia
 
   return (
     <div>
-      <SubNav active={active} onChange={setActive} />
+      <SubNav items={t.enfoque.subnav} active={active} onChange={key => navigate('enfoque', key)} />
       <Page />
     </div>
   )

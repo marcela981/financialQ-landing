@@ -1,8 +1,11 @@
 import './Hero.css'
 import { Button } from '../../shared/ui/button/Button'
 import { t } from '../../shared/config/locales'
+import { useAppNavigate } from '../../shared/lib/useAppNavigate'
 
-export function Hero({ navigate }) {
+export function Hero() {
+  const navigate = useAppNavigate()
+
   return (
     <>
       <section id="hero">

@@ -1,11 +1,7 @@
 import en from './en/common.json'
 import es from './es/common.json'
 
-let path = window.location.pathname.replace(/\/+$/, '') || '/'
-
-if (path !== '/' && path !== '/es') {
-  window.history.replaceState({}, '', '/')
-  path = '/'
-}
-
-export const t = path === '/es' ? es : en
+// Static export para compatibilidad con imports existentes.
+// Lee la preferencia de idioma desde localStorage (sin modificar el historial del navegador).
+const lang = localStorage.getItem('lang') === 'es' ? 'es' : 'en'
+export const t = lang === 'es' ? es : en

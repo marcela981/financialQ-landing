@@ -3,6 +3,7 @@ import { Footer } from '../../widgets/footer/Footer'
 import { Button } from '../../shared/ui/button/Button'
 import { Card } from '../../shared/ui/cards/Card'
 import { useScrollReveal } from '../../shared/lib/useScrollReveal'
+import { useAppNavigate } from '../../shared/lib/useAppNavigate'
 import { t } from '../../shared/config/locales'
 
 const CLIENT_ICONS = [
@@ -22,13 +23,14 @@ const CLIENT_ICONS = [
 
 const tl = t.landing
 
-export function LandingPage({ navigate }) {
+export function LandingPage() {
   useScrollReveal()
+  const navigate = useAppNavigate()
 
   return (
     <div>
       {/* Hero + Marquee */}
-      <Hero navigate={navigate} />
+      <Hero />
 
       {/* Clientes preview */}
       <section className="section">
@@ -146,7 +148,7 @@ export function LandingPage({ navigate }) {
         </div>
       </section>
 
-      <Footer variant="full" navigate={navigate} />
+      <Footer variant="full" />
     </div>
   )
 }

@@ -87,14 +87,6 @@
 }
 .h-tag-sep { width: 1px; height: 14px; background: var(--border); }
 
-.hero-stats {
-  position: relative; z-index: 1;
-  border-top: 1px solid var(--border);
-  background: rgba(230, 223, 197, .52);
-  backdrop-filter: blur(18px);
-  display: grid; grid-template-columns: repeat(4, 1fr);
-  animation: fadeIn 1s 1s both;
-}
 .hs {
   padding: 24px 36px;
   border-right: 1px solid var(--border);
@@ -123,11 +115,22 @@
 
 @media (max-width: 900px) {
   .hero-body { padding: 60px 24px 48px; }
-  .hero-stats { grid-template-columns: 1fr 1fr; }
   .hs:nth-child(2) { border-right: none; }
   .hs:nth-child(3), .hs:nth-child(4) { border-top: 1px solid var(--border); }
+}
+@media (max-width: 640px) {
+  .hero-body { padding: 40px 20px 36px; }
+  .hero-sup { margin-bottom: 22px; font-size: 9px; letter-spacing: .18em; }
+  .hero-sup-line { width: 20px; }
+  .hero-h1 { font-size: clamp(34px, 10vw, 52px); }
+  .hero-sub { font-size: clamp(18px, 5vw, 24px); margin-top: 6px; }
+  .hero-rule { margin: 22px auto; height: 32px; }
+  .hero-desc { font-size: 14px; margin-bottom: 32px; }
+  .hero-tags { margin-top: 32px; }
 }
 @media (max-width: 480px) {
   .h-tag-sep { display: none; }
   .hero-tags { gap: 14px; }
+  .hero-h1 { font-size: clamp(30px, 9.5vw, 42px); }
+  .hero-sub { font-size: clamp(16px, 4.8vw, 22px); }
 }

@@ -49,15 +49,6 @@ export function Hero() {
             ))}
           </div>
         </div>
-
-        <div className="hero-stats">
-          {t.hero.stats.map(s => (
-            <div key={s.label} className="hs">
-              <div className="hs-n">{s.number}<sup>{s.sup}</sup></div>
-              <div className="hs-l">{s.label}</div>
-            </div>
-          ))}
-        </div>
       </section>
 
       {/* Marquee bar */}

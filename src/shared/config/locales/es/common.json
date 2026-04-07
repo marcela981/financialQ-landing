@@ -40,7 +40,7 @@
     "tags": [
       "Diseño por Mandato",
       "Asignación por Régimen",
-      "Presupuesto de Riesgo",
+      "Presupuesto Explícito de Riesgo",
       "Capitalización a Largo Plazo"
     ],
     "stats": [
@@ -67,12 +67,12 @@
   "landing": {
     "clients": {
       "eyebrow": "A Quiénes Servimos",
-      "heading": "Diseñado para",
-      "heading.italic": "Circunstancias",
-      "heading2": "Excepcionales.",
+      "heading": "Para Individuos",
+      "heading.italic": "Familias, y Capital",
+      "heading2": "con Complejidad.",
       "btnViewAll": "Ver todos los perfiles",
-      "body1": "Trabajamos con un número limitado de clientes cuya complejidad financiera exige disciplina institucional — no soluciones minoristas. Nuestros compromisos son selectivos por diseño.",
-      "body2": "Cada relación comienza con una evaluación exhaustiva del mandato antes de tomar cualquier decisión de asignación.",
+        "body1": "Trabajamos con un número limitado de clientes cuya complejidad financiera exige disciplina institucional.",
+        "body2": "Cada relación comienza con una evaluación formal del mandato, asegurando que cada asignación esté alineada con objetivos, restricciones y horizontes temporales claramente definidos.",
       "cards": [
         { "title": "Profesionales de Altos Ingresos",    "body": "Compensación compleja, posiciones concentradas y acumulación a largo plazo." },
         { "title": "Empresarios Transfronterizos",        "body": "Múltiples jurisdicciones, repatriación y coordinación bajo tratados fiscales." },

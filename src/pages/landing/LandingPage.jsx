@@ -38,7 +38,7 @@ export function LandingPage() {
           <div className="col2 reveal" style={{ marginBottom: 56 }}>
             <div>
               <span className="eyebrow">{tl.clients.eyebrow}</span>
-              <h2 className="display" style={{ fontSize: 'clamp(38px,5vw,58px)', marginTop: 18 }}>
+              <h2 className="display" style={{ fontSize: 'clamp(28px,3.5vw,42px)', marginTop: 18 }}>
                 {tl.clients.heading}<br /><em>{tl.clients['heading.italic']}</em><br />{tl.clients.heading2}
               </h2>
               <Button variant="ghost" style={{ marginTop: 32 }} onClick={() => navigate('clientes')}>

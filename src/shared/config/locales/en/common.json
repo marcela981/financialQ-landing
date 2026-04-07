@@ -39,7 +39,7 @@
     "tags": [
       "Design by Mandate",
       "Allocation by Regime",
-      "Risk Budget",
+      "Explicit Risk Budget",
       "Long-Term Capitalization"
     ],
     "stats": [
@@ -66,12 +66,12 @@
   "landing": {
     "clients": {
       "eyebrow": "Who We Serve",
-      "heading": "Designed for",
-      "heading.italic": "Exceptional",
-      "heading2": "Circumstances.",
+      "heading": "For Individuals",
+      "heading.italic": "Families, and Capital",
+      "heading2": "with Complexity.",
       "btnViewAll": "View all profiles",
-      "body1": "We work with a limited number of clients whose financial complexity demands institutional discipline — not retail solutions. Our commitments are selective by design.",
-      "body2": "Each relationship begins with a thorough mandate assessment before any allocation decisions are made.",
+      "body1": "We work with a limited number of clients whose financial complexity requires institutional discipline.",
+      "body2": "Each relationship begins with a formal mandate assessment, ensuring every allocation is aligned with clearly defined objectives, constraints and time horizons.",
       "cards": [
         { "title": "High-Income Professionals",        "body": "Complex compensation, concentrated positions and long-term accumulation." },
         { "title": "Cross-Border Entrepreneurs",       "body": "Multiple jurisdictions, repatriation and coordination under tax treaties." },

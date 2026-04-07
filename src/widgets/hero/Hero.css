@@ -87,14 +87,6 @@
 }
 .h-tag-sep { width: 1px; height: 14px; background: var(--border); }
 
-.hero-stats {
-  position: relative; z-index: 1;
-  border-top: 1px solid var(--border);
-  background: rgba(230, 223, 197, .52);
-  backdrop-filter: blur(18px);
-  display: grid; grid-template-columns: repeat(4, 1fr);
-  animation: fadeIn 1s 1s both;
-}
 .hs {
   padding: 24px 36px;
   border-right: 1px solid var(--border);
@@ -123,7 +115,6 @@
 
 @media (max-width: 900px) {
   .hero-body { padding: 60px 24px 48px; }
-  .hero-stats { grid-template-columns: 1fr 1fr; }
   .hs:nth-child(2) { border-right: none; }
   .hs:nth-child(3), .hs:nth-child(4) { border-top: 1px solid var(--border); }
 }

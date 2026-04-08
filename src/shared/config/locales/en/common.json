@@ -485,7 +485,7 @@
         {
           "num": "03",
           "tag": "Step 03",
-          "title": "Risk Oversight",
+          "title": "Risk\nOversight",
           "body": "Portfolio risk is continuously monitored across key dimensions, ensuring exposures remain aligned with the defined risk budget.",
           "detailLabel": "Monitored variables",
           "detailItems": [

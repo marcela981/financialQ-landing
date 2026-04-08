@@ -84,8 +84,7 @@
 }
 
 .proc-step--centered .proc-step-title {
-  text-align: center;
-  max-width: 100%;
+  white-space: pre-line;
 }
 
 .proc-step::before {

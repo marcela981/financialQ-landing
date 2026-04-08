@@ -486,7 +486,7 @@
         {
           "num": "03",
           "tag": "Paso 03",
-          "title": "Supervisión del Riesgo",
+          "title": "Supervisión\ndel Riesgo",
           "body": "El riesgo del portafolio se monitorea de manera continua a través de las dimensiones clave, asegurando que las exposiciones permanezcan alineadas con el presupuesto de riesgo definido.",
           "detailLabel": "Variables monitoreadas",
           "detailItems": [
